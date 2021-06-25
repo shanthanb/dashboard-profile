@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200"
+      rel="stylesheet"
+    />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <!-- Sidebar Starts -->
+    <div class="sidebar">
+      <div class="sidebar-title">
+        <a href="./index.html">WIPADIKA INNOVATIONS</a>
+      </div>
+      <hr />
+      <div class="sidebar-content">
+        <ul class="sidebar-links">
+          <li class="link">
+            <a href="./index.html"
+              ><img src="./images/user.svg" alt="User Icon" /><span
+                >USER PROFILE</span
+              ></a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Sidebar End -->
+    <div class="main-container">
+      <!-- Navbar starts -->
+      <nav class="navbar">
+        <div class="navbar-container">
+          <div class="search-form-container">
+            <form class="search-form">
+              <input type="text" placeholder="Search..." />
+              <button class="search-btn">
+                <img src="./images/search.svg" alt="Search Icon" />
+              </button>
+            </form>
+          </div>
+
+          <div class="navbar-icons">
+            <a href="#" class="stats"><img src="./images/stats.svg" /></a>
+            <a href="#" class="notification"><img src="./images/bell.svg" /></a>
+            <a href="#" class="settings"><img src="./images/settings.svg" /></a>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar end -->
+      <hr />
+      <div class="user-container">
+        <!-- Card One Starts-->
+        <div class="user-profile">
+          <div class="user-background-img">
+            <img src="./images/userBackground.jpg" alt="User Background" />
+          </div>
+          <div class="user-img">
+            <a href="#"><img src="./images/mike.jpg" /></a>
+          </div>
+
+          <div class="user-details">
+            <div class="user-name"><a href="#">Chet Faker</a></div>
+            <div class="user-tag"><span>@chatfaker</span></div>
+            <div class="user-bio">
+              <span
+                >"I like the way you work it<br />No diggity<br />I wanna bag it
+                up!"</span
+              >
+            </div>
+
+            <div class="user-footer">
+              <hr />
+              <div class="user-usage">
+                <div class="user-files"><span>12</span><span>Files</span></div>
+                <div class="user-data-used">
+                  <span>2GB</span><span>Used</span>
+                </div>
+                <div class="user-money-spent">
+                  <span>$246</span><span>Spent</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card One Ends -->
+        <!-- Card Two Starts -->
+        <div class="user-team-members">
+          <div class="title">Team Members</div>
+          <div class="team-members">
+            <div id="1" class="member">
+              <div class="member-img">
+                <img src="./images/member1.jpg" alt="Member Profile Picture" />
+              </div>
+              <div class="member-info">
+                <div class="member-name">DJ Khaled</div>
+                <div class="member-status offline">Offline</div>
+              </div>
+              <div class="member-email">
+                <img src="./images/email.svg" alt="Email" />
+              </div>
+            </div>
+
+            <div id="2" class="member">
+              <div class="member-img">
+                <img src="./images/member2.jpg" alt="Member Profile Picture" />
+              </div>
+              <div class="member-info">
+                <div class="member-name">Wipadika Innovations</div>
+                <div class="member-status available">Available</div>
+              </div>
+              <div class="member-email">
+                <img src="./images/email.svg" alt="Email" />
+              </div>
+            </div>
+
+            <div id="3" class="member">
+              <div class="member-img">
+                <img src="./images/member3.jpg" alt="Member Profile Picture" />
+              </div>
+              <div class="member-info">
+                <div class="member-name">Flume</div>
+                <div class="member-status busy">Busy</div>
+              </div>
+              <div class="member-email">
+                <img src="./images/email.svg" alt="Email" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card Two Ends -->
+        <!-- Card Three Starts -->
+        <div class="user-edit-profile">
+          <div class="title">Edit Profile</div>
+          <div class="edit-form-container">
+            <form class="edit-form">
+              <div class="row row-1">
+                <div class="form-input company-name">
+                  <label for="company-name">Company (disabled)</label><br />
+                  <input
+                    id="company-name"
+                    type="text"
+                    disabled
+                    placeholder="Company"
+                    value="Code Inc."
+                  />
+                </div>
+
+                <div class="form-input username">
+                  <label for="username">Username</label><br />
+                  <input id="username" type="text" placeholder="Username" />
+                </div>
+                <div class="form-input email">
+                  <label for="email">Email Address</label><br />
+                  <input id="email" type="email" placeholder="Email Address" />
+                </div>
+              </div>
+              <div class="row row-2">
+                <div class="form-input first-name">
+                  <label for="first-name">First Name</label><br />
+                  <input id="first-name" type="text" placeholder="First Name" />
+                </div>
+                <div class="form-input last-name">
+                  <label for="last-name">Last Name</label><br />
+                  <input id="last-name" type="text" placeholder="Last Name" />
+                </div>
+              </div>
+              <div class="row row-3">
+                <div class="form-input address">
+                  <label for="address">Address</label><br />
+                  <input
+                    id="address"
+                    type="text"
+                    placeholder="Melbourne, Australia"
+                  />
+                </div>
+              </div>
+              <div class="row row-4">
+                <div class="form-input city">
+                  <label for="city">City</label><br />
+                  <input id="city" type="text" placeholder="Melbourne" />
+                </div>
+                <div class="form-input country">
+                  <label for="country">Country</label><br />
+                  <input id="country" type="text" placeholder="Australia" />
+                </div>
+                <div class="form-input zip-code">
+                  <label for="zip-code">Postal Code</label><br />
+                  <input id="zip-code" type="number" placeholder="ZIP CODE" />
+                </div>
+              </div>
+              <div class="row row-5">
+                <div class="form-input about-me">
+                  <label for="about-me">About Me</label><br />
+                  <textarea
+                    id="about-me"
+                    class="about-me"
+                    type="text"
+                    placeholder="Oh so, your weak rhyme You doubt I'll bother, reading into it"
+                  ></textarea>
+                </div>
+              </div>
+
+              <button class="update-profile-btn">Update Profile</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Card Three Ends -->
+
+    <script>
+      const searchBtn = document.querySelector(".search-btn");
+      const updateProfileBtn = document.querySelector(".update-profile-btn");
+
+      searchBtn.addEventListener("click", (e) => {
+        e.preventDefault();
+      });
+
+      updateProfileBtn.addEventListener("click", (e) => {
+        e.preventDefault();
+      });
+    </script>
+  </body>
+</html>
